@@ -1,0 +1,9 @@
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+.navigation {
+	display: flex;
+	gap: 1em;
+}

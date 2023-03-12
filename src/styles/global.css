@@ -1,0 +1,24 @@
+.container {
+	background: #f4f4f5;
+	min-height: 100vh;
+	padding: 1em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+@media (prefers-color-scheme: dark) {
+	.container {
+		background: #3f3f46;
+		color: #f4f4f5;
+	}
+
+	a {
+		color: #22d3ee;
+	}
+
+	a:active {
+		color: #0891b2;
+	}
+}
